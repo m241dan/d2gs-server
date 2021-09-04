@@ -17,3 +17,4 @@ COPY ./${version} /D2GS/drive_c/d2gs${version}
 
 WORKDIR /D2GS/drive_c/d2gs${version}
 
+RUN wine regedit d2gs.reg
