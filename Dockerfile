@@ -13,7 +13,7 @@ ENV WINEPREFIX=/D2GS
 
 RUN winecfg
 
-COPY ./${version} /D2GS/drive_C/d2gs${version}
+COPY ./${version} /D2GS/drive_c/d2gs${version}
 
 WORKDIR /D2GS/drive_c/d2gs${version}
 
